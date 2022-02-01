@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@j-t-mcc/vue3-chartjs": "^1.2.0",
+    "@popperjs/core": "^2.11.2",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.0",
+    "vue": "^3.2.25",
+    "vue-axios": "^3.4.0",
+    "vue-chart-3": "^3.0.9",
+    "vue-observe-visibility": "^1.0.0",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-vue": "^8.3.0",
+    "sass": "^1.49.0",
+    "vite": "^2.7.2",
+    "vite-plugin-pwa": "^0.11.13"
+  },
+  "name": "my-project",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "version": "1.0.0",
+  "description": "Laboration 2",
+  "main": "vite.config.js",
+  "author": "Erika",
+  "license": "ISC"
+}
