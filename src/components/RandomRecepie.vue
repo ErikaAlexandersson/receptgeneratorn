@@ -9,7 +9,6 @@
         )
         .then((response) => {
           this.responses = response.data.hits
-          this.$router.push({ path: 'random', query: { search: 'chicken' } })
         })
     },
     data() {
@@ -54,10 +53,6 @@
           )
           .then((response) => {
             this.responses = response.data.hits
-            this.$router.push({
-              path: 'random',
-              query: { search: this.random[this.recipeNumber] }
-            })
           })
       },
       randomRecipe(value) {
